@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<view class="section">
+    <view class="index-head">
+        <navigator class="city" url="/citylist">上海</navigator>
+        <view class="search J_search_trigger">输入商户名、地点</view>
+        <navigator url="/my" class="self"></navigator>
+        <view id="J_toast" class="toast Hide">你可以在这里更改所在城市</view>
+    </view>
+</view>
+<view class="topholder"></view>
+<swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+    </block>
+</swiper>
+
+<view class="frontend">
+    <view class="index-nav nav-gap-in nav-gap-out">
+        <ul>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=store"></navigator>
+                <image src="/data/attached/nav/store.png"></image>
+                <text>店铺街</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=brand"></navigator>
+                <image src="/data/attached/nav/brand.png"></image>
+                <text>品牌街</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=activity"></navigator>
+                <image src="/data/attached/nav/activity.png"></image>
+                <text>促销活动</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=groupbuy"></navigator>
+                <image src="/data/attached/nav/groupbuy.png"></image>
+                <text>最新团购</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=exchange"></navigator>
+                <image src="/data/attached/nav/exchange.png"></image>
+                <text>积分换购</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=community"></navigator>
+                <image src="/data/attached/nav/community.png"></image>
+                <text>微社区</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=crowd_funding"></navigator>
+                <image src="/data/attached/nav/crowd_funding.png"></image>
+                <text>微筹</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=auction"></navigator>
+                <image src="/data/attached/nav/auction.png"></image>
+                <text>拍卖活动</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=package"></navigator>
+                <image src="/data/attached/nav/package.png"></image>
+                <text>超值礼包</text>
+            </li>
+            <li style="width: 20%;">
+                <navigator url="index.php?m=topic"></navigator>
+                <image src="/data/attached/nav/topic.png"></image>
+                    <text>专题汇</text>
+            </li>
+        </ul>
+    </view>
+</view>
+<view class="index_for_you ">
+    <view class="index_like_title">猜你喜欢</view>
+    <view class="product-list normal">
+        <ul>
+            <li>
+                <navigator url="/mobile/index.php?m=goods&amp;id=5&amp;u=0"></navigator>
+                <view class="product-cart" style="display: none;">
+                    <i class="iconfont icon-cart"></i>
+                </view>
+                <figure>
+                    <img src="../images/category_top_42.png">
+                    <figcaption>
+                        <text>可口可乐</text>
+                        <p class="remark">
+                            <em>库存：10000</em>
+                            <em>销量：0</em>
+                        </p>
+                        <p class="price">
+                            <em>¥0.01</em>
+                        </p>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+    </view>
+
+
+</view>
+
+
+<view class="footer_nav">
+    <view class="tabdown tabdown-fixed">
+        <ul>
+            <li class="home active">
+                <navigator url="/mobile/index.php?m=index"></navigator>
+                <i></i>
+                <text>首页</text>
+            </li>
+            <li class="categroy">
+                <navigator url="/mobile/index.php?m=category"></navigator>
+                <i></i>
+                <text>分类</text>
+            </li>
+            <li class="search">
+                <navigator url="/mobile/index.php?m=search"></navigator>
+                <i></i>
+                <text>搜索</text>
+            </li>
+            <li class="cart">
+                <navigator url="/mobile/index.php?m=cart"></navigator>
+                <i></i>
+                <text>购物车</text>
+            </li>
+            <li class="me">
+                <navigator url="/mobile/index.php?m=user"></navigator>
+                <i></i>
+                <text>我</text>
+            </li>
+        </ul>
+    </view>
+</view>
+
+
+</body>
+</html>

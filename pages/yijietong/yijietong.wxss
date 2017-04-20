@@ -1,0 +1,305 @@
+
+page{
+    font-size:14px;
+    background-color: #f0f0f0;
+}
+view{
+    background-color: #ffffff;
+}
+.index-head{
+    position:fixed;
+width:100%;
+height:50px;
+line-height:50px;
+background-color:#f63;
+color:#fff;
+padding:0 10px;
+text-align:center;
+display:-webkit-box;
+z-index:305;
+box-sizing:border-box;
+
+}
+.topholder{
+    height:50px;
+}
+.city:after{
+    content:'>';
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.index-head .search {
+    background-color: #fff;
+    padding: 0 0 0 30px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin: 9px 6px 9px 10px;
+    line-height: 32px;
+    color: #b8b8b8;
+    text-align: left;
+    font-size: 13px;
+    -webkit-transition: left .2s,right .2s;
+    transition: left .2s,right .2s;
+    border-radius: 25px;
+    position: relative;
+    display:inline-block;
+     width:13.5rem;
+    height:30px;
+}
+
+.index-head .self {
+    display: block;
+    background-image: url(//www.dpfile.com/app/app-m-module/static/d53930bbff0bf22cb8cea72503da44d9.png);
+    background-repeat: no-repeat;
+    background-position: left -67px;
+    background-size: 250px;
+    width: 28px;
+    height: 100%;
+}
+.index-head .toast {
+    position: absolute;
+    left: 5px;
+    top: 43px;
+    width: 200px;
+    height: 30px;
+    padding: 8px;
+    line-height: 30px;
+    border-radius: 5px;
+    z-index: 9999;
+    font-size: 14px;
+    font-weight: 400;
+    background: rgba(0,0,0,.8);
+}
+.Hide {
+    display: none!important;
+}
+
+.slide-image{
+    width:100%;
+}
+/*猜你喜欢*/
+
+.index_for_you .index_content .standard_content_item .pic .pic_tag {
+    font-size: 12px;
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
+    padding: 3px 7px;
+    background-color: #000;
+    color: #e5bf86;
+    position: absolute;
+    font-weight: 700;
+}
+.index_for_you .index_content .standard_content_item .pic {
+    position: relative;
+    font-size: 0;
+    padding-right: 10px;
+}
+.index_like_title{
+    height: 30px;
+    line-height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #777;
+}
+.index_for_you .index_content .welfare .content {
+    -webkit-box-flex: 1;
+}
+.item{
+width:50%;
+box-sizing:border-box;
+display:inline-block;
+padding:0.4rem;
+border:1px solid #ccc;
+}
+.item_img{
+    width:100%;
+height:8rem;
+}
+.product-list .price em {
+   color:#ec5151;
+font-size:0.8rem;
+display:block;
+margin:0.5rem 0;
+}
+.item_text{
+    padding-left:0.5rem;
+}
+.item_sale_title{
+    display: block;
+    margin-bottom:1.5rem;
+}
+.remark em{
+    padding-right:0.6rem;
+    color:#888;
+
+}
+/*footer地步导航*/
+.tabdown {
+    background: #fefdfc;
+    padding: .4rem 0;
+    border-top: 1px solid #f6f6f9;
+}
+.tabdown.tabdown-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 111;
+}
+.tabdown ul {
+    width: 100%;
+}
+.tabdown ul li {
+    width: 20%;
+    float: left;
+}
+.tabdown ul li {
+    text-align:center;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-flex: 1;
+    position: relative;
+}
+.tabdown ul li navigator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.tabdown ul li i {
+    background: url(http://test.dscmall.cn/mobile/statics/img/ec-icon.png) no-repeat;
+    width: 2.7rem;
+    height: 2.7rem;
+    display: block;
+    margin: 0 auto;
+    background-size: 32.1rem;
+}
+.tabdown ul li.home i {
+    background-position-x: .2rem;
+}
+.tabdown ul li.categroy i {
+    background-position-x: -2.7rem;
+}
+.tabdown ul li.search i {
+    background-position-x: -14.1rem;
+}
+.tabdown ul li.cart i {
+    background-position-x: -5.7rem;
+}
+.tabdown ul li.me i {
+    background-position-x: -8.3rem;
+}
+.tabdown ul li.active i {
+    background-position-y: -2.8rem;
+}
+.tabdown ul li span {
+   font-size:0.7rem;
+
+}
+
+/*免预约*/
+.index_for_you{
+    margin-top:0.5rem
+}
+
+.standard_content_item {
+    margin-left: 15px;
+    padding: 11px 10px 11px 0;
+    box-sizing: border-box;
+    display: -webkit-box;
+      background-image: linear-gradient(0,#e1e1e1,#e1e1e1 50%,transparent 0);
+    background-position: 100% 100%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+}
+.content{
+    display:inline-block;
+    vertical-align:top;
+
+}
+ .content .shop_name_main .shop_name {
+    max-width: 145px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #111;
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ .content .shop_name_sub {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #777;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+ .content .item_price {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 22px;
+    line-height: 22px;
+    padding-right: 4px;
+}
+ .content .item_price .price_related {
+    display: -webkit-box;
+    max-width: 145px;
+}
+.content .item_price .sale_desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 13px;
+    color: #777;
+    line-height: 24px;
+}
+ .content .rec_reason {
+    font-size: 12px;
+    -webkit-transform: scale(.95);
+    transform: scale(.95);
+    color: #f63;
+    background-color: #ffefea;
+    float: left;
+    padding: 2px 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: -4px;
+    margin-top: 10px;
+}
+ .pic {
+    position: relative;
+    font-size: 0;
+    padding-right: 10px;
+    display:inline-block;
+
+}
+ .pic image{
+    width: 90px;
+    height: 90px;
+}
+ .pic .pic_tag {
+    font-size: 12px;
+    -webkit-transform: scale(.98);
+    transform: scale(.98);
+    padding: 3px 7px;
+    background-color: #000;
+    color: #e5bf86;
+    position: absolute;
+    font-weight: 700;
+}
+/*广告*/
+.border-bottom-new>.main {
+    background-image:url(../images/ad_background.png);
+    background-size: 100% 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    height: 108px;
+}
